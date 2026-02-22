@@ -1,0 +1,88 @@
+{
+  "kind": "build_request",
+  "title": "Create gaming application with interactive gameplay",
+  "projectName": "Game Hub",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a gaming application with interactive gameplay mechanics",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "I want to Create app for gaming"
+        ]
+      },
+      "acceptanceCriteria": [
+        "User can start and play a game",
+        "Game has clear interactive elements",
+        "Game state is managed and persisted in the backend"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement a visually engaging game interface with smooth animations and responsive controls",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Game interface renders smoothly",
+        "Controls are intuitive and responsive",
+        "Visual feedback is provided for user actions"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Store and retrieve game scores or progress in the backend",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Game scores are persisted across sessions",
+        "User can view their game history or high scores",
+        "Backend provides queries for retrieving game data"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Design a creative and cohesive visual theme for the gaming app using bold, vibrant colors (avoiding blue and purple unless specifically needed), dynamic typography, and a modern gaming aesthetic that feels energetic and immersive",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Visual theme is consistently applied across all screens",
+        "Color palette is vibrant and suitable for gaming",
+        "Typography and layout support an engaging user experience"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use React with TypeScript for frontend implementation",
+    "Use Motoko for backend logic in a single-actor architecture",
+    "Do not modify immutable frontend paths including useInternetIdentity hooks and UI components"
+  ],
+  "nonGoals": [
+    "Multiplayer or real-time networking features",
+    "Integration with external gaming platforms or APIs",
+    "Mobile-specific gaming controls or native app deployment"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Vibrant gaming hero banner with abstract geometric patterns and energetic colors (hero-banner.dim_1200x400.png)",
+      "Game controller icon in a modern flat style (controller-icon.dim_128x128.png)"
+    ],
+    "edits": []
+  }
+}

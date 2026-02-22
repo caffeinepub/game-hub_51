@@ -1,0 +1,21 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no implemented functionality.",
+  "feature_evidence.json": "Feature evidence report documenting three implemented features: gaming application with interactive gameplay, visually engaging interface with animations, and creative visual theme with vibrant colors.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing a brick breaker game with React components, routing, styling, and game logic.",
+  "frontend/index.css": "Tailwind CSS base styles with custom CSS variables for light and dark themes using OKLCH color system.",
+  "frontend/index.html": "HTML entry point with root div and module script loading for React application titled 'Game Hub'.",
+  "frontend/src/App.tsx": "Main React application component setting up TanStack Router with root layout (Header/Footer) and GamePage route.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying copyright, current year, and caffeine.ai attribution with UTM tracking parameters.",
+  "frontend/src/components/Game.tsx": "Core brick breaker game component implementing Canvas-based gameplay with ball physics, paddle controls, brick collision detection, scoring, and keyboard/mouse input handling.",
+  "frontend/src/components/GameControls.tsx": "Game control buttons component rendering start, pause, resume, and restart buttons based on current game status.",
+  "frontend/src/components/Header.tsx": "Application header with Game Hub branding, gamepad icon, and 'Ready to Play' status indicator.",
+  "frontend/src/hooks/useActor.ts": "React hook for managing ICP backend actor instances with authentication support, creating anonymous or authenticated actors based on Internet Identity status.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context and hook for Internet Identity authentication, managing login/logout flow, identity state, and AuthClient configuration.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for future React Query hooks when backend methods are implemented.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables for light/dark themes, including a gaming color palette (primary, secondary, accent, success, warning) and base styling for typography using Inter font.",
+  "frontend/src/main.tsx": "Application entry point that sets up React root with QueryClient provider for data fetching and InternetIdentityProvider for authentication, rendering the main App component.",
+  "frontend/src/pages/GamePage.tsx": "Main game page component managing game state (idle/playing/paused/gameover), score tracking, and rendering the game canvas, controls, score display, and instructions in a responsive layout with hero banner.",
+  "frontend/src/styles/game.css": "Game-specific CSS with styling for canvas borders/shadows, overlay animations (fadeIn, slideUp, scaleIn), and keyframe animations for score popups and particle effects for brick destruction.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom colors using oklch color space (including game-specific colors), custom animations (accordion, pulse-glow), Inter font family, and container settings.",
+  "project_state.json": "Project metadata tracking features for a gaming application called 'Game Hub', including completed features for gameplay mechanics and visual design, and a pending feature request for backend score storage."
+}

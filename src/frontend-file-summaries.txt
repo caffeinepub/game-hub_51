@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining routes and layout with Header/Footer wrapper.",
+  "frontend/src/components/Header.tsx": "Application header with branding, game icon, and status indicator.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/pages/GamePage.tsx": "Main game page with hero banner, game canvas, controls, score display, and instructions sidebar.",
+  "frontend/src/components/Game.tsx": "Core game component implementing brick breaker gameplay with HTML5 Canvas, including ball physics, paddle controls, brick collision detection, and scoring.",
+  "frontend/src/components/GameControls.tsx": "Game control buttons for start, pause, resume, and restart actions with dynamic state-based rendering.",
+  "frontend/src/styles/game.css": "Game-specific CSS animations and styles for overlays, messages, and visual effects.",
+  "frontend/src/index.css": "Global styles with vibrant gaming color palette (orange, yellow, green) using OKLCH color system for both light and dark modes.",
+  "frontend/tailwind.config.js": "Extended Tailwind configuration with custom gaming colors, Inter font family, and game-specific animations.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for future React Query hooks when backend methods are implemented."
+}
